@@ -1,0 +1,50 @@
+{
+  "name": "serve-static-x",
+  "version": "1.0.0",
+  "description": "Serve static files with cache busting capability (uses Express.static() aka serve-static)",
+  "author": {
+    "name": "Buster Collings",
+    "email": "busterc@gmail.com",
+    "url": "https://about.me/buster"
+  },
+  "files": [
+    "dist"
+  ],
+  "main": "dist/index.js",
+  "keywords": [
+    "serve",
+    "static",
+    "serve-static",
+    "cache",
+    "diskcache",
+    "caching",
+    "diskcaching",
+    "bust",
+    "busting"
+  ],
+  "repository": "busterc/serve-static-x",
+  "devDependencies": {
+    "babel-core": "^5.5.0",
+    "del": "^2.0.2",
+    "express": "^4.13.3",
+    "gulp": "^3.6.0",
+    "gulp-babel": "^5.1.0",
+    "gulp-eslint": "^1.0.0",
+    "gulp-exclude-gitignore": "^1.0.0",
+    "gulp-istanbul": "^0.9.0",
+    "gulp-mocha": "^2.0.0",
+    "gulp-nsp": "^2.1.0",
+    "gulp-plumber": "^1.0.0",
+    "isparta": "^3.0.3",
+    "jade": "^1.11.0",
+    "request": "^2.65.0"
+  },
+  "scripts": {
+    "prepublish": "gulp prepublish",
+    "test": "gulp"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "serve-static": "^1.10.0"
+  }
+}
