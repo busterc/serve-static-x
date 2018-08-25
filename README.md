@@ -1,4 +1,7 @@
 # serve-static-x [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/busterc/serve-static-x.svg)](https://greenkeeper.io/)
+
 > Serve static files with cache busting capability; 
 > uses [`Express.static()`](http://expressjs.com/4x/api.html#express.static) aka [serve-static](https://github.com/expressjs/serve-static)
 
